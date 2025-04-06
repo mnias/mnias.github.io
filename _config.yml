@@ -49,15 +49,12 @@ darkmode: false
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: 안녕하세요
 about_profile_image: images/me.jpg # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  React, Next.js, TypeScript 기반의 프론트엔드 개발자 (경력 6년) 입니다.
+    - 웹 서비스 프론트엔드 설계, 개발, 운영 경험을 가지고 있어요.
+    - 기획, 디자인 직군과의 원활한 의사소통이 가능합니다.
 
 content:
   # - title: Projects # Title for the section
@@ -84,14 +81,16 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: 퍼스트엔터테인먼트
+        sub_title: 개발팀 / 사원
+        caption: 2019.02 - 2025.02
+        # link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          온라인 쇼핑몰 회사
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 관리자 페이지 개발, 운영 담당
+          - 쇼핑몰 웹페이지 개발, 운영 담당
+          - 웹뷰 개발, 운영 담당 (상품 상세페이지에서 결제완료까지)
   - title: Education
     layout: list
     content:

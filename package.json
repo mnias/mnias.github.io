@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "git add . && git commit -m \"GitHub Pages 배포 설정 추가\" && git push origin main"
+    "deploy": "git add . && git commit -m \"배포\" && git push origin main"
   },
   "dependencies": {
     "react": "^19.0.0",

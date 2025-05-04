@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: ".",
+  assetPrefix: "/",
+  basePath: "/gyeonghwan.github.io",
 };
 
 module.exports = nextConfig;

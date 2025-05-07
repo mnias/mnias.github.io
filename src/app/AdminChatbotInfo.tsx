@@ -8,10 +8,13 @@ export default function AdminChatbotInfo() {
       <ul>
         <li>- 백엔드 API없이 nextjs API Routes와 openai 라이브러리를 사용</li>
       </ul>
+      <div className="my-8">
+        <strong>참여인원</strong> - 프론트엔드 1명, 기획&디자이너 1명
+      </div>
       <ul>
         <li className="mt-12 text-18 font-bold">주요 기술 스택</li>
         <li>- Next.js</li>
-        <li>- Styled-component</li>
+        <li>- styled-components</li>
         <li>- Typescript</li>
         <li>- yarn</li>
       </ul>

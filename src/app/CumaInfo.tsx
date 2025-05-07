@@ -51,7 +51,7 @@ export default function CumaInfo() {
             <li>- Next.js</li>
             <li>- React</li>
             <li>- Redux toolkit</li>
-            <li>- Styled-component</li>
+            <li>- styled-components</li>
             <li>- Typescript</li>
             <li>- Sentry</li>
           </ul>

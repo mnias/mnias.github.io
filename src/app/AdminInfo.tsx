@@ -29,6 +29,7 @@ export default function AdminInfo() {
         <li className="mt-12 text-18 font-bold">주요 기술 스택</li>
         <li>- React</li>
         <li>- Redux toolkit</li>
+        <li>- styled-components</li>
         <li>- Typescript</li>
         <li>- yarn</li>
       </ul>

@@ -5,8 +5,15 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "/",
-  basePath: "/gyeonghwan.github.io",
+  ...(process.env.NODE_ENV === "production" 
+    ? {
+        assetPrefix: "/",
+        basePath: "/gyeonghwan.github.io",
+      }
+    : {
+        assetPrefix: "",
+        basePath: "",
+      }),
 };
 
 module.exports = nextConfig;
